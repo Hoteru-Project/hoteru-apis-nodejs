@@ -1,10 +1,17 @@
 const express = require('express');
 const route = express.Router();
-// const jsonBodyParser = require("body-parser").json();
-// const userController = require("../controllers/controller");
+const middlewares = require("../middlewares");
+
+const hotelController = require("../controllers/Api/HotelController");
+const loginController = require("../controllers/Api/Auth/LoginController");
+
+route.use(middlewares["ApiMiddleware"]);
 
 // TODO API routes Written down there as follows
 
-// route.get("/", jsonBodyParser, userController.homepage);
+route.post("/auth/login", express.json(), loginController.login)
+
+route.get("/:provider/", express.json(), middlewares["AuthMiddleware"], hotelController.index);
+route.get("/:provider/:id", express.json(), hotelController.show);
 
 module.exports = route;

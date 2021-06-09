@@ -7,7 +7,8 @@ const UserSchema = new Schema({
     username: {type: String, required: true, unique: true, trim: true, minlength: 3},
     email: {type: String, required: true},
     password: {type: String, required: true},
-    isAdmin: {type: Boolean, default: false, required: true}
+    isAdmin: {type: Boolean, default: false, required: true},
+    token: {type: String}
 }, {
     timestamps: true,
 });
