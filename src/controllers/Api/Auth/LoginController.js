@@ -8,6 +8,7 @@ var randomstring = require("randomstring");
 
 module.exports = {
     login: async (req, res) => {
+        console.log(req.body)
         const errors = {}
         let loggedIn = false
         const user = await UserModel.findOne({$or :[{username: req.body.username}, {email: req.body.username}]});

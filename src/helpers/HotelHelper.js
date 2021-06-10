@@ -12,7 +12,7 @@ const getRandomInt = (max, negative = false) => Math.floor((Math.random() - (neg
 const generateRandomizedRatingAndReviews = () => {
     const min = 2;
     const max = 15;
-    let numberOfReviews = getRandomInt(max - min) + min
+    let numberOfReviews = getRandomInt(max - min + 1) + min
     let rateCounter = 0;
     shuffle(jsonReviews)
     const guestReviews = {
@@ -50,7 +50,7 @@ module.exports = {
     createHotels: async (originalHotel) => {
         const providers = await ProviderModel.find();
         shuffle(providers);
-        let providersNumbers = getRandomInt(providers.length - 1) + 1;
+        let providersNumbers = getRandomInt(providers.length) + 1;
         while (providersNumbers--) {
             let hotel = JSON.parse(JSON.stringify(originalHotel))
             hotel.provider = providers[providersNumbers].name
