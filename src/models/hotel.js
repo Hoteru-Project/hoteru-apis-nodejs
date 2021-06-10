@@ -1,10 +1,15 @@
+"use strict";
+
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 const SchemaTypes = mongoose.Schema.Types;
+const AutoIncrement = require('mongoose-sequence')(mongoose);
+
+
 
 const HotelSchema = new Schema({
-    id: {type: Number, required: true, auto: true, unique: true},
+    id: {type: Number, unique: true, },
     provider: {type: String, required: true},
     name: {type: String, min: 3, required: true},
     availability: [{
@@ -20,11 +25,10 @@ const HotelSchema = new Schema({
             price: {type: Number, required: true}
         }
     ],
-    numberOfGuests: {type: Number, min: 0, max: 8, required: true},
     hotelLocation: {
         coordinates: {
-            latitude: {type: SchemaTypes.Decimal128},
-            longitude: {type: SchemaTypes.Decimal128}
+            latitude: {type: Number},
+            longitude: {type: Number}
         }
     },
     mainAmenities: [String],
@@ -76,5 +80,9 @@ const HotelSchema = new Schema({
 }, {
     timestamps: true
 })
+
+HotelSchema.plugin(AutoIncrement, {inc_field: 'id'});
+
+
 
 module.exports = mongoose.model("Hotel", HotelSchema)

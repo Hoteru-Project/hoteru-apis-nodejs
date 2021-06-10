@@ -12,6 +12,8 @@ route.use(middlewares["ApiMiddleware"]);
 route.post("/auth/login", express.json(), loginController.login)
 
 route.get("/:provider/", express.json(), middlewares["AuthMiddleware"], hotelController.index);
-route.get("/:provider/:id", express.json(), hotelController.show);
+route.get("/:provider/:id", express.json(), middlewares["AuthMiddleware"], hotelController.show);
+
+route.post("/:provider", express.json(), middlewares["AuthMiddleware"], hotelController.store);
 
 module.exports = route;

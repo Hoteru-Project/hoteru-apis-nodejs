@@ -1,0 +1,278 @@
+[
+  {
+    "rate": 8,
+    "name": "Jogger",
+    "review": "Overall: disappointed. The breakfast: okay-ish. Good food but not that much of a choice, small portions",
+    "date": "2010-10-10"
+  },
+  {
+    "rate": 10,
+    "name": "Traveler",
+    "review": "Excellent stay, wish the price of parking was included or made aware of before hand, other than that excellent stay",
+    "date": "2013-06-7"
+  },
+  {
+    "rate": 2,
+    "name": "Kelli",
+    "review": "Hotel caught on fire at 1am and had no evacuation plan felt so unsafe and did not communicate with guest as we watched fire being put out for 3 hours horrible staff and poor management Would not feel safe staying at a Marriott expect better emergency plan and guest service. Hotel sent a charge to my credit card for our stay and when I called hotel to explain we were guest during fire staff was rude.",
+    "date": "2017-01-03"
+  },
+  {
+    "rate": 8,
+    "name": "Sarah Brown",
+    "review": "We arrived around 7:30-8:00pm, and the receptionist was very stand-offish. We had changed our reservation because we added another person, so we needed two queen beds. The change was several weeks before we arrived.The receptionist kept saying we only have your original reservation. No friendly gesture, no smile saying no worries,no problem. She changed the reservation room without saying a word to me. I was the one who had to ask if the room",
+    "date": "2021-01-01"
+  },
+  {
+    "rate": 8,
+    "name": "Rebecca V",
+    "review": "Very convenient location for visiting my son at Fort Belvoir. Our room was comfortable and the housekeeping staff did a good job. I was disappointed that I was quoted a suite over the phone, but when we arrived were told.. no suites available. The coffee was terrible and breakfast lacking , but I understand Covid is limiting what they can offer.",
+    "date": "2013-09-16"
+  },
+  {
+    "rate": 8,
+    "name": "Traveler",
+    "review": "Location was good. Front desk agent was very helpful and friendly.",
+    "date": "2020-07-29"
+  },
+  {
+    "rate": 10,
+    "name": "Amber Kelly",
+    "review": "Friendly staff, clean safe, and comfortable.",
+    "date": "2014-05-09"
+  },
+  {
+    "rate": 2,
+    "name": "Jimmy",
+    "review": "Not secure, plastic cards paid for by va's/ssa employees. Rooms never secure security, electronics communications.",
+    "date": "2016-03-17"
+  },
+  {
+    "rate": 10,
+    "name": "Lee B",
+    "review": "The rooms are nice and clean, and the breakfast in the morning is pretty decent.",
+    "date": "2019-05-05"
+  },
+  {
+    "rate": 10,
+    "name": "Menna",
+    "review": "Front desk staff was excellent. We couldn't open our room safe, called the front desk and someone came immediately. We wanted to leave the room as soon as we arrived to get lunch so it was crucial that someone come very soon since we needed to leave our jewelry, electronics and cash in the safe. We were very impressed. We've stay here many times before and have never been disappointed. Clean rooms, quiet room and very good breakfast.",
+    "date": "2017-04-06"
+  },
+  {
+    "rate": 6,
+    "name": "Janos J.",
+    "review": "My father in law is a retired USAF Colonel (Bird) and he booked two rooms last week here, because it is literally right down the street from Ft. Belvoir. The staff here was very friendly during...",
+    "date": "2017-01-03"
+  },
+  {
+    "rate": 10,
+    "name": "Don Grogan",
+    "review": "The staff was great and the room was spacious and clean!",
+    "date": "2010-07-21"
+  },
+  {
+    "rate": 10,
+    "name": "Sobhy",
+    "review": "Loved everything only downer was the indoor pool was closed, every other hotel I stayed in during this pandemic pool was open only thing was you had to schedule a time to be in there alone .",
+    "date": "2010-10-10"
+  },
+  {
+    "rate": 10,
+    "name": "Ramez Fayek",
+    "review": "We had a great stay. Very friendly staff. Also very clean and we enjoyed breakfast.",
+    "date": "2014-03-12"
+  },
+  {
+    "rate": 8,
+    "name": "Jogger",
+    "review": "We had a great stay. Very friendly staff. Also very clean and we enjoyed breakfast.",
+    "date": "2014-12-30"
+  },
+  {
+    "name": "Mary J Evans",
+    "date": "2021-08-09",
+    "review": "Sadly this was for a funeral and everything socially distanced. Staff very welcoming in their masks. Everything looked spotless and the food and coffee very good, excellent hot buffet.. The care and attention was exceptional. Well done I say in view of the circumstances",
+    "rate": 10
+  },
+  {
+    "name": "Tony Adams",
+    "date": "2011-06-06",
+    "review": "Lovely hotel which is set a period house and still retains its elegance. The hotel has 9 rooms which are all luxerious and they cater for weddings and events. As I say lovely hotel with a superb team to look after you.Highly recommend",
+    "rate": 8
+  },
+  {
+    "name": "Mary J Evans",
+    "date": "2016-12-15",
+    "review": "Sadly this was for a funeral and everything socially distanced. Staff very welcoming in their masks. Everything looked spotless and the food and coffee very good, excellent hot buffet.. The care and attention was exceptional. Well done I say in view of the circumstances",
+    "rate": 10
+  },
+  {
+    "name": "Frank Greaves",
+    "date": "2017-08-02",
+    "review": "Nice little hotel, friendly and helpful staff. we were there for a small family occasion; the buffet was good.",
+    "rate": 6
+  },
+  {
+    "name": "Ruth Greene",
+    "date": "2019-03-09",
+    "review": "Attended a birthday party here today. Lovely food and excellent service - the staff worked really hard. A great place for a party",
+    "rate": 8
+  },
+  {
+    "name": "Michael schofeld",
+    "date": "2020-04-09",
+    "review": "Very good lovey views and service",
+    "rate": 4
+  },
+  {
+    "name": "Rishi Patel",
+    "date": "2018-09-09",
+    "review": "Great location, nice rooms, when we stayed it was reasonably priced too. Given the location it is a little noisy in the evening.",
+    "rate": 8
+  },
+  {
+    "name": "John Eduard",
+    "date": "2014-02-30",
+    "review": "Great two-night stay in the heart of Soho. Staff were friendly and the hotel was very Covid safe with lots of measures in place.Thr Brita tap is a nice touch too.",
+    "rate": 8
+  },
+  {
+    "name": "Mark Luies",
+    "date": "2007-07-07",
+    "review": "Great location... good room and facilities for the price. Would recommend.",
+    "rate": 10
+  },
+  {
+    "name": "Adrian",
+    "date": "2015-11-09",
+    "review": "Just simply great...staff were as always, friendly and helpful...mny thx!!.Nothing",
+    "rate": 10
+  },
+  {
+    "name": "Nte Wilcox",
+    "date": "2013-06-03",
+    "review": "Great apartment and wonderful service. Tina is amazing",
+    "rate": 10
+  },
+  {
+    "name": "Stephen Festorazzi",
+    "date": "2020-06-09",
+    "review": "You get what you pay for right?!? Surprisingly the service I had here was really good better than some hotels! The room wasn't that great, floor was more uneven than the sea! ",
+    "rate": 4
+  },
+  {
+    "name": "CM Carter",
+    "date": "2017-10-09",
+    "review": "This place was beyond poor. Only can be described as filthy, dirty and disgusting. Stains on matrices, towels, walls, curtains! Stains on stains",
+    "rate": 2
+  },
+  {
+    "name": "JAC Gilbert",
+    "date": "2003-09-14",
+    "review": "A lot can be improved around here. It's good for a short stay if you are looking for a sleepover",
+    "rate": 4
+  },
+  {
+    "name": "samson osas",
+    "date": "2016-04-25",
+    "review": "A nice,clean and quiet lodge with excellent 24 hours customer service",
+    "rate": 10
+  },
+  {
+    "name": "Luna Sea",
+    "date": "2018-03-04",
+    "review": "The beds were comfy but the rest of the hotel is terrible. The communal shower head doesn't stand properly, the toilet makes a very loud noise when flushed",
+    "rate": 2
+  },
+  {
+    "name": "Asmarah kigeny",
+    "date": "2021-01-15",
+    "review": "Very nice hotel! Great service.",
+    "rate": 6
+  },
+  {
+    "rate": 2,
+    "name": "Eveliene VdA",
+    "review": "if you are not italian you do not matter. The rooms are really noisy.you can hear the neighbours like they are in your room next to your bed.the ladies of the reception desk are very rude and all they are trying to do is take more money .no honesty what so ever.also the rooms are old.getting served breakfast took 4ever and is very pricy. We had to choose for the whole week.while others on the breakfast had food and bread that we could not even choose from. Only plus is the pool. Never going back ever",
+    "date": "2020-09-10"
+  },
+  {
+    "rate": 8,
+    "name": "Mal Mc",
+    "review": "The hotel was clean and comfortable a good location and the staff were pleasant and helpful.the original room we were allocated had no view, just surrounded by a hedge,We asked for a change and we were looked after with another room which was a lot better.",
+    "date": "2020-08-06"
+  },
+  {
+    "rate": 8,
+    "name": "Anthony",
+    "review": "Good location- bus stop opposite -great pool-helpful staff-reasonable price",
+    "date": "2019-07-02"
+  },
+  {
+    "rate": 10,
+    "name": "Traveler",
+    "review": "This was a charming hotel. The staff was very helpful and rooms were nicely appointed. So glad we stayed there.",
+    "date": "2019-04-04"
+  },
+  {
+    "rate": 10,
+    "name": "Mitch N",
+    "review": "Quiet and clean. Many spots in the shade. A big pool to cool down while you're away from the sea. Bathrooms are well serviced and the showers are hot. They also sport a huge washing machine. And the staff was remarkably friendly! A place to come back to.",
+    "date": "2019-09-07"
+  },
+  {
+    "rate": 10,
+    "name": "SAR-Daniel Serra",
+    "review": "Perfect and friendly and attentive people working. Thanks",
+    "date": "2020-02-04"
+  },
+  {
+    "rate": 8,
+    "name": "Alexander Schüßler",
+    "review": "A cool hotel with fun and funky decor, but I don't think anyone had stayed in my room for quite some time. There were silverfish in the sheets, mayflies on the walls, and mosquitoes buzzing around inside. Whoever had cleaned the room last had used an entire can of Axe body spray as air freshener (and left the can in the trash). I still slept well, though.",
+    "date": "2019-04-01"
+  },
+  {
+    "rate": 4,
+    "name": "Julie",
+    "review": "Noisy Aircon. Electricity failed during the night causing all appliances to start bleeping.",
+    "date": "2019-07-11"
+  },
+  {
+    "rate": 4,
+    "name": "Mark Green",
+    "review": "!The walls are paper thin - could hear next door's TV loudly.In the morning, the water was stone cold so could not have a shower. I informed reception of this but there was no adjustment in my bill.The breakfast was fine and wifi good",
+    "date": "2020-12-05"
+  },
+  {
+    "rate": 10,
+    "name": "Martina",
+    "review": "Pros: Ho trovato un’ottima struttura, pulita e super accogliente. I proprietari si sono mostrati fin da subito disponibili, consigliandoci anche un ristorante che facesse cena da asporto. Camera grande, con tutto il necessario e cucina in comune molto attrezzata. Colazione super con prodotti fatti in casa. Cons: Nulla di particolare da segnalare.",
+    "date": "2020-08-04"
+  },
+  {
+    "rate": 10,
+    "name": "Nicola Coton",
+    "review": "Very pleasant nice balcony room",
+    "date": "2020-03-22"
+  },
+  {
+    "rate": 2,
+    "name": "Jürgen",
+    "review": "So ein Reinfall, das erste Mal in Italien, und kamen vor einen gesperrten Aufenthalts Ort.",
+    "date": "2020-10-17"
+  },
+  {
+    "rate": 6,
+    "name": "Karen Lythgoe",
+    "review": "This is a very nice pub that has had an expensive make over. The staff are friendly and work hard to try to ensure good service. When I booked the only room with outside space that was available was the suite which is spacious and has a modern bathroom with bath. However, the outside space was a large terrace that over looked the children’s playground and outside tables. Not a problem. The problem was the smell of cooking",
+    "date": "2020-09-04"
+  },
+  {
+    "rate": 10,
+    "name": "P Gianni",
+    "review": "Pros: La proprietaria, Cristina, e la sua famiglia sono state gentili e accoglienti e ci hanno fatto sentire a casa. Cristina ci ha fatto trovare ogni giorno dei dolci fatti in casa per la colazione ed é stata a disposizione per tutto il soggiorno. La struttura é dagiornovvero bella e si vede che é stata arredata con cura. Inoltre la pulizia é stata impeccabile. In rispetto delle norme Anti-Covid-19 Cristina ha igienizzato gli ambienti comuni 2 volte al giorno. Torneremo sicuramente!",
+    "date": "2021-03-12"
+  }
+]

@@ -1,6 +1,7 @@
 "use strict";
 
 const HotelModel = require("../../models/hotel");
+const Helpers = require("../../helpers/HotelHelper")
 
 module.exports = {
     index: async (req, res) => {
@@ -12,18 +13,15 @@ module.exports = {
                     endDate: {$gte: req.query.checkIn?new Date(req.query.checkOut): ""}
                 }
             },
-            hotelLocation: {
-                coordinates: {
-                    longitude: {$gte: Number(req.query.longitude) - 1, $lte: Number(req.query.longitude) + 1},
-                    latitude: {$gte: Number(req.query.latitude) - 1, $lte: Number(req.query.latitude) + 1}
-                }
-            },
-            roomCount:{
+            "hotelLocation.coordinates.longitude": {$gte: Number(req.query.long) - 1, $lte: Number(req.query.long) + 1},
+            "hotelLocation.coordinates.latitude": {$gte: Number(req.query.lat) - 1, $lte: Number(req.query.lat) + 1},
+            rooms:{
                 $elemMatch: {
-                    roomCount: {$gte: req.params.rooms}
+                    roomCount: {$gte: req.query.rooms}
                 }
             }
         };
+        // console.log(searchParams.)
         const hotels = await HotelModel.find(searchParams);
         if( hotels.length ){
             res.status(200).json({
@@ -53,7 +51,19 @@ module.exports = {
             })
         }
     },
-    store: (req, res) => {
-
+    store: async (req, res) => {
+        await Helpers.createHotels(req.body);
+        // req.body.provider = req.params.provider;
+        // req.body.availability.forEach(item => {
+        //     console.log(item.startDate)
+        //     item.startDate = new Date(item.startDate)
+        //     item.endDate = new Date(item.endDate)
+        // })
+        // const hotel = new HotelModel(req.body);
+        // await hotel.save()
+        return res.status(201).json({
+            success: true,
+            message: "Created Successfully"
+        })
     }
 }

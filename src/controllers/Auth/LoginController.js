@@ -1,7 +1,7 @@
 "use strict";
 
 const UserModel = require("../../models/user");
-const Helper = require("../Helpers");
+const Helper = require("../../helpers/AuthHelper");
 
 
 module.exports = {
