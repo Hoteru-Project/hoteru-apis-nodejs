@@ -11,8 +11,8 @@ app.use(cors())
 app.use(helmet())
 
 // App public directories
-app.use(process.env.STATIC_URL, express.static(path.join(__dirname, "/public/static_root")));
-app.use(process.env.MEDIA_URL, express.static(path.join(__dirname, "/public/media_root")));
+// app.use(process.env.STATIC_URL, express.static(path.join(__dirname, "/public/static_root")));
+// app.use(process.env.MEDIA_URL, express.static(path.join(__dirname, "/public/media_root")));
 
 // Template Engine and Views Directory
 app.set('views', path.join(__dirname, '/views'));
